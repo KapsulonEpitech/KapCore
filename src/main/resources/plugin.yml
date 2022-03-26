@@ -1,0 +1,29 @@
+name: KapCore
+version: '${project.version}'
+main: fr.kapsulon.kapcore.KapCore
+depend: [NBTAPI]
+api-version: 1.18
+authors: [ Kapsulon ]
+description: Kapsulon Hardcore Difficulty
+commands:
+  setspawn:
+    description: Set the spawn location
+    permission: op
+  spawn:
+    description: Teleport to spawn location
+  getlives:
+    description: Get lives of player
+    usage: /getlives <player>
+  setlives:
+    description: Set lives of player
+    usage: /setlives <player> <amount>
+    permission: op
+  givelife:
+    description: Give a life to a player
+    usage: /givelife <player>
+  givelifetoken:
+    description: Give a life token to a player
+    usage: /givelifetoken <player>
+  givecustomitem:
+    description: Give a custom item to a player
+    usage: /givecustomitem <player> <item>
